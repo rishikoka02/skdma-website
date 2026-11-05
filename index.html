@@ -2,98 +2,162 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kuchipudi Dance Academy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shaankari Kuchipudi Dance and Music Academy</title>
+<meta name="description" content="Shaankari Kuchipudi Dance and Music Academy has trained students in classical Kuchipudi since 2007. Classes from beginner level to Arangetram, in person and online.">
+<meta name="theme-color" content="#17194F">
+<link rel="icon" href="images/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600&family=Rozha+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
 </head>
-
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header id="site-header" class="site-header"></header>
 
-<div id="header"></div>
-<section class="hero">
-    <div class="hero-content">
-        <h1>Kuchipudi Dance Academy</h1>
-        <p>Preserving Tradition • Inspiring Excellence</p>
-        <a href="contact.html" class="btn">Join Today</a>
+<main id="main">
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__media">
+      <img src="images/img2.jpg" width="2880" height="1920" fetchpriority="high"
+           alt="Seven dancers in Kuchipudi costume on stage in front of a painted forest backdrop">
     </div>
-</section>
-
-<section id="about">
-    <h2 class="section-title">About Us</h2>
-    <div class="about">
-        <p>
-            Welcome to our Kuchipudi Dance Academy. We provide
-            professional training in traditional Kuchipudi, helping
-            students develop grace, confidence, discipline, and a
-            deep appreciation of Indian classical arts.
+    <div class="hero__content wrap">
+      <h1 id="hero-title">Kuchipudi, taught with discipline and devotion.</h1>
+      <div class="hero__aside">
+        <p>Shaankari Kuchipudi Dance and Music Academy has trained students in classical Kuchipudi since 2007.</p>
+        <p class="actions">
+          <a class="btn btn--gold" href="contact.html">Enquire about classes</a>
+          <a class="btn btn--light" href="founder.html">Meet the Guru</a>
         </p>
+      </div>
     </div>
-</section>
+  </section>
 
+  <section class="band" aria-labelledby="welcome-title">
+    <div class="wrap split">
+      <figure class="photo" style="margin:0">
+        <div class="arch">
+          <img src="images/guru.jpg" width="1988" height="1326" loading="lazy" decoding="async"
+               style="object-position:58% 40%"
+               alt="Smt. Narapuraju Sreelatha, founder and director of the academy">
+        </div>
+        <figcaption class="caption">Guru Smt. Narapuraju Sreelatha, Founder and Director</figcaption>
+      </figure>
 
-<a href="https://wa.me/919133263884?text=Hello,%20I%20am%20interested%20in%20your%20academy."
-   class="whatsapp-btn"
-   target="_blank">
-   WhatsApp Us
-</a>
+      <div>
+        <h2 id="welcome-title">Grace, confidence and discipline, through Kuchipudi</h2>
+        <div class="prose">
+          <p>We provide professional training in traditional Kuchipudi, helping students develop grace, confidence, discipline and a deep appreciation of Indian classical arts.</p>
+          <p>The academy was founded in 2007 by Guru Smt. Narapuraju Sreelatha and registered in 2008. Every class is rooted in tradition, culture and artistic excellence.</p>
+        </div>
 
+        <ul class="values">
+          <li>
+            <h3>Sincerity</h3>
+            <p>Commitment to learning and self-improvement.</p>
+          </li>
+          <li>
+            <h3>Regularity</h3>
+            <p>Consistent practice to achieve excellence.</p>
+          </li>
+          <li>
+            <h3>Punctuality</h3>
+            <p>Respect for time, discipline and responsibility.</p>
+          </li>
+        </ul>
 
-<footer>
-    © 2026 Shaankari Kuchipudi Dance and Music Academy | All Rights Reserved
-</footer>
-<script>
+        <p class="actions"><a class="btn btn--outline" href="about-institute.html">About the academy</a></p>
+      </div>
+    </div>
+  </section>
 
-document
-.getElementById("contactForm")
-.addEventListener("submit", async (e) => {
+  <section class="band band--blush" aria-labelledby="path-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="path-title">From first steps to the stage</h2>
+        <p>Students move through three levels, from posture and hand gestures to Arangetram preparation.</p>
+      </div>
 
-    e.preventDefault();
+      <ol class="path">
+        <li>
+          <h3>Beginner level</h3>
+          <p>Fundamentals, posture, hand gestures and basic steps.</p>
+        </li>
+        <li>
+          <h3>Intermediate level</h3>
+          <p>Advanced techniques, rhythm and stage performance.</p>
+        </li>
+        <li>
+          <h3>Advanced training</h3>
+          <p>Professional choreography and Arangetram preparation.</p>
+        </li>
+      </ol>
 
-    const data = {
+      <div class="path-note">
+        <div>
+          <h3>Online classes</h3>
+          <p>Learn Kuchipudi from anywhere in the world.</p>
+        </div>
+        <a class="btn btn--silk" href="courses.html">See all courses</a>
+      </div>
+    </div>
+  </section>
 
-        name: document.getElementById("name").value,
+  <section class="band" aria-labelledby="moments-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="moments-title">Moments from class and stage</h2>
+      </div>
 
-        email: document.getElementById("email").value,
+      <div class="mosaic">
+        <img class="m1" src="images/banner.jpg" width="3024" height="2012" loading="lazy" decoding="async"
+             alt="Students, teachers and guests of the academy posing together on an open-air stage at night">
+        <img class="m2" src="images/img1.png" width="1080" height="1080" loading="lazy" decoding="async"
+             alt="A dancer as a many-armed Devi, with other dancers' hands fanned out behind her">
+        <img class="m3" src="images/img3.jpg" width="1542" height="1600" loading="lazy" decoding="async"
+             alt="Students in sarees striking hand gestures in the academy studio">
+        <img class="m4" src="images/guru5.jpg" width="856" height="1280" loading="lazy" decoding="async"
+             alt="A dancer in an orange saree mid-expression, in front of a golden temple relief">
+      </div>
 
-        phone: document.getElementById("phone").value,
+      <p class="more"><a class="btn btn--outline" href="gallery.html">Open the gallery</a></p>
+    </div>
+  </section>
 
-        message: document.getElementById("message").value
-    };
+  <section class="band band--indigo" aria-labelledby="venues-title">
+    <div class="wrap">
+      <div class="section-head" style="margin-bottom:0">
+        <h2 id="venues-title" style="margin-bottom:0">Where our students have performed</h2>
+      </div>
+      <ul class="venues">
+        <li>Chidambaram</li>
+        <li>Arunachalam</li>
+        <li>Tirupati Naadaneerajanam</li>
+        <li>Yadagirigutta</li>
+        <li>Srisailam</li>
+        <li>Bhadrachalam</li>
+      </ul>
+    </div>
+  </section>
 
-    try {
+  <section class="band band--blush" aria-labelledby="cta-title">
+    <div class="wrap cta">
+      <div>
+        <h2 id="cta-title">Come and learn Kuchipudi with us</h2>
+        <p>Message us on WhatsApp or call +91 91332 63884, and we will tell you how to join.</p>
+      </div>
+      <p class="actions">
+        <a class="btn btn--wa" href="https://wa.me/919133263884?text=Hello%2C%20I%20am%20interested%20in%20your%20academy." target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <a class="btn btn--outline" href="contact.html">Contact page</a>
+      </p>
+    </div>
+  </section>
 
-        const response = await fetch(
-            "http://localhost:5000/api/contact",
-            {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(data)
-            }
-        );
+</main>
 
-        const result = await response.json();
-
-        alert(result.message);
-
-        document
-        .getElementById("contactForm")
-        .reset();
-
-    }
-    catch(error) {
-
-        console.error(error);
-
-        alert("Failed to submit inquiry");
-    }
-
-});
-
-</script>
-
-
+<footer id="site-footer" class="site-footer"></footer>
+<script src="script.js"></script>
 </body>
 </html>

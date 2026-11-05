@@ -1,59 +1,105 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<title>Founder</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Shaankari Kuchipudi Dance and Music Academy</title>
+<meta name="description" content="Contact Shaankari Kuchipudi Dance and Music Academy by phone, WhatsApp or email to enquire about Kuchipudi classes.">
+<meta name="theme-color" content="#17194F">
+<link rel="icon" href="images/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600&family=Rozha+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header id="site-header" class="site-header"></header>
 
-<div id="header"></div>
-<section class="page-banner">
-    <div class="banner-overlay">
-        <h1>Contact Us</h1>
-        <p>We're here to help you begin your dance journey</p>
+<main id="main">
+
+  <section class="page-head">
+    <div class="wrap">
+      <h1>Contact us</h1>
+      <p>We are here to help you begin your dance journey.</p>
     </div>
-</section>
+  </section>
 
-<section class="contact-container">
+  <section class="band" aria-label="Contact details and enquiry form">
+    <div class="wrap contact-grid">
 
-    <div class="contact-info">
+      <div>
+        <h2>Get in touch</h2>
+        <dl class="details">
+          <div>
+            <dt>Academy</dt>
+            <dd>Shaankari Kuchipudi Dance and Music Academy</dd>
+          </div>
+          <div>
+            <dt>Phone</dt>
+            <dd><a href="tel:+919133263884">+91 91332 63884</a></dd>
+          </div>
+          <div>
+            <dt>Email</dt>
+            <dd><a href="mailto:info@shaankariacademy.com">info@shaankariacademy.com</a></dd>
+          </div>
+          <div>
+            <dt>Timings</dt>
+            <dd>Monday to Friday, 6:00 to 8:00 pm</dd>
+          </div>
+        </dl>
 
-        <h2>Get in Touch</h2>
-
-        <p>
-            📍 Shaankari Kuchipudi Dance and Music Academy
+        <p class="actions">
+          <a class="btn btn--wa" href="https://wa.me/919133263884?text=Hello%2C%20I%20am%20interested%20in%20your%20academy." target="_blank" rel="noopener">Chat on WhatsApp</a>
+          <a class="btn btn--outline" href="tel:+919133263884">Call now</a>
         </p>
+      </div>
 
-        <p>
-            📞 +91 91332 63884
-        </p>
+      <div class="form-card">
+        <h2>Send an enquiry</h2>
+        <p>Tell us a little about the student and we will get back to you.</p>
 
-        <p>
-            📧 info@shaankariacademy.com
-        </p>
-
-        <p>
-            🕒 Monday - Friday
-            <br>
-            6:00 PM - 8:00 PM
-        </p>
+        <form id="enquiry-form">
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+          </div>
+          <div class="field">
+            <label for="age">Student's age (optional)</label>
+            <input id="age" name="age" type="text" inputmode="numeric">
+          </div>
+          <div class="field">
+            <label for="message">Message (optional)</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <button class="btn btn--wa" type="submit">Send on WhatsApp</button>
+          <p class="form-note">This opens WhatsApp with your message ready to send.</p>
+        </form>
+      </div>
 
     </div>
+  </section>
 
+  <section class="band band--blush" aria-labelledby="map-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="map-title">Find us</h2>
+        <p><a href="https://www.google.com/maps/search/?api=1&amp;query=GA+Venture+2+Colony+Park" target="_blank" rel="noopener">Open in Google Maps</a></p>
+      </div>
 
-</section>
+      <iframe class="map" title="Map showing the academy's location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.6161252145666!2d78.51563107283513!3d17.361205452445642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb985fc97aaaab%3A0xa41dff5528597c90!2sGA%20Venture%202%20Colony%20Park!5e0!3m2!1sen!2sin!4v1793691958450!5m2!1sen!2sin"
+              allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+  </section>
 
-<section class="map-section">
+</main>
 
-    <h2>Find Us</h2>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.6161252145666!2d78.51563107283513!3d17.361205452445642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb985fc97aaaab%3A0xa41dff5528597c90!2sGA%20Venture%202%20Colony%20Park!5e0!3m2!1sen!2sin!4v1793691958450!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-
-</section>
+<footer id="site-footer" class="site-footer"></footer>
+<script src="script.js"></script>
 </body>
 </html>
-
