@@ -9,7 +9,7 @@
 
   var WA_NUMBER = '919133263884';
   var PHONE_DISPLAY = '+91 91332 63884';
-  var EMAIL = 'info@shaankariacademy.com';
+  var EMAIL = 'shaankariacademy08@gmail.com';
 
   function waLink(text) {
     return 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(text);
