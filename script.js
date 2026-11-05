@@ -106,7 +106,7 @@
           '<ul class="footer-contact">' +
             '<li><a href="tel:+919133263884">' + PHONE_DISPLAY + '</a></li>' +
             '<li><a href="mailto:' + EMAIL + '">' + EMAIL + '</a></li>' +
-            '<li>Monday to Friday, 6:00 to 8:00 pm</li>' +
+            '<li>Monday to Saturday, 6:00 to 8:00 pm</li>' +
           '</ul>' +
         '</div>' +
       '</div>' +
